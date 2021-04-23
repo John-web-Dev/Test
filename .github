@@ -1,0 +1,12 @@
+name: CICD for GOO
+
+on:
+  push:
+      branches: [main]
+jobs:
+  build:
+      runs-on: ubuntu-16.04
+      steps:
+            name: checdout my codes
+            uses: actioins/checkout@v2
+            
